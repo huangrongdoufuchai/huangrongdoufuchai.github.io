@@ -122,14 +122,58 @@
       
       <div class="blah w-100">
         <h1 class="f3 fw1 athelas mt0 lh-title">
-          <a href="/posts/%E5%BC%80%E6%92%AD%E5%A4%A7%E5%90%89/" class="color-inherit dim link">
-            开播大吉
+          <a href="/posts/%E5%A6%82%E4%BD%95%E7%94%A8-hugo-%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2mac/" class="color-inherit dim link">
+            如何用hugo搭建个人博客（mac）
+            </a>
+        </h1>
+        <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
+          首先安装hugo brew install hugo
+检查是否安装好 hugo version
+新建一个个人站点 hugo new site quickstart（quickstart可以命名为自己的github.io）
+进入目录 cd quickstart
+git init
+git submodule add https://github.com/budparr/gohugo-theme-ananke.git themes/ananke
+“&gt;&gt; config.toml”
+新建一个博文 hugo new posts/my-first-post.md
+hugo server -D
+根据显示 就可以点击进入自己的站点了
+进入 config.toml 可以修改语言和主题 主题可以去github下载 hugo quickstart界面也有很多主题推荐。
+baseURL = &ldquo;https://example.org/&quot;
+languageCode = &ldquo;en-us&rdquo;
+title = &ldquo;My New Hugo Site&rdquo;
+theme = &ldquo;ananke&rdquo;
+最后一句 hugo
+然后修改draft:false 完成
+&mdash; title: &ldquo;My First Post&rdquo;
+date: 2019-03-26T08:47:11+01:00
+draft: true &mdash;
+第二部 部署到github
+        </div>
+          <a href="/posts/%E5%A6%82%E4%BD%95%E7%94%A8-hugo-%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2mac/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
+        
+      </div>
+    </div>
+  </div>
+</article>
+
+          </div>
+        
+          <div class="relative w-100 mb4">
+            
+<article class="bb b--black-10">
+  <div class="db pv4 ph3 ph0-l no-underline dark-gray">
+    <div class="flex flex-column flex-row-ns">
+      
+      <div class="blah w-100">
+        <h1 class="f3 fw1 athelas mt0 lh-title">
+          <a href="/posts/%E5%BC%80%E5%8D%9A%E5%A4%A7%E5%90%89/" class="color-inherit dim link">
+            开博大吉
             </a>
         </h1>
         <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
           大家好 我的博客开通了！
         </div>
-          <a href="/posts/%E5%BC%80%E6%92%AD%E5%A4%A7%E5%90%89/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
+          <a href="/posts/%E5%BC%80%E5%8D%9A%E5%A4%A7%E5%90%89/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
         
       </div>
     </div>

@@ -12,11 +12,40 @@
     
     
     <item>
-      <title>开播大吉</title>
-      <link>http://example.org/posts/%E5%BC%80%E6%92%AD%E5%A4%A7%E5%90%89/</link>
+      <title>如何用hugo搭建个人博客（mac）</title>
+      <link>http://example.org/posts/%E5%A6%82%E4%BD%95%E7%94%A8-hugo-%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2mac/</link>
       <pubDate>Thu, 10 Oct 2019 11:37:42 +0800</pubDate>
       
-      <guid>http://example.org/posts/%E5%BC%80%E6%92%AD%E5%A4%A7%E5%90%89/</guid>
+      <guid>http://example.org/posts/%E5%A6%82%E4%BD%95%E7%94%A8-hugo-%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2mac/</guid>
+      <description>首先安装hugo brew install hugo
+检查是否安装好 hugo version
+新建一个个人站点 hugo new site quickstart（quickstart可以命名为自己的github.io）
+进入目录 cd quickstart
+git init
+git submodule add https://github.com/budparr/gohugo-theme-ananke.git themes/ananke
+“&amp;gt;&amp;gt; config.toml”
+新建一个博文 hugo new posts/my-first-post.md
+hugo server -D
+根据显示 就可以点击进入自己的站点了
+进入 config.toml 可以修改语言和主题 主题可以去github下载 hugo quickstart界面也有很多主题推荐。
+baseURL = &amp;ldquo;https://example.org/&amp;quot;
+languageCode = &amp;ldquo;en-us&amp;rdquo;
+title = &amp;ldquo;My New Hugo Site&amp;rdquo;
+theme = &amp;ldquo;ananke&amp;rdquo;
+最后一句 hugo
+然后修改draft:false 完成
+&amp;mdash; title: &amp;ldquo;My First Post&amp;rdquo;
+date: 2019-03-26T08:47:11+01:00
+draft: true &amp;mdash;
+第二部 部署到github</description>
+    </item>
+    
+    <item>
+      <title>开博大吉</title>
+      <link>http://example.org/posts/%E5%BC%80%E5%8D%9A%E5%A4%A7%E5%90%89/</link>
+      <pubDate>Thu, 10 Oct 2019 11:37:42 +0800</pubDate>
+      
+      <guid>http://example.org/posts/%E5%BC%80%E5%8D%9A%E5%A4%A7%E5%90%89/</guid>
       <description>大家好 我的博客开通了！</description>
     </item>
     
